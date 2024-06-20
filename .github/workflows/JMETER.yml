@@ -23,5 +23,5 @@ jobs:
         run: |
           sshpass -p ClearC0de20S4 ssh -o StrictHostKeyChecking=no root@158.220.107.63 << EOF
             cd /root/projects/jmeter/apache-jmeter-5.4.1/bin
-            ./jmeter.sh -n -t /root/projects/jmeter/test.jmx -l /root/projects/jmeter/results.jtl
+            ./jmeter.sh -n -t /root/projects/jmeter/test1.jmx -l /root/projects/jmeter/results.jtl
           EOF
